@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PruductoActivity"
+    android:background="@drawable/fondo3">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageView
+            android:background="@drawable/logo"
+            android:layout_width="75dp"
+            android:layout_height="100dp"
+            />
+
+        <TextView
+
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="50sp"
+            android:layout_marginRight="20sp"
+            android:text="NannuSHOP"
+            android:textColor="@color/azul"
+
+            android:textSize="38sp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="605dp"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="20sp"
+            android:text="Producto"
+            android:textAlignment="center"
+            android:textColor="@color/azul"
+
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/NombreP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="20dp"
+            android:hint="Nombre del Producto"
+            android:textColorHint="@color/azul"
+            android:background="@color/lila"
+            android:padding="8dp"
+            android:textSize="25dp">  </EditText>
+
+        <EditText
+            android:id="@+id/ValorP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="20dp"
+            android:hint="Valor del Producto"
+            android:textColorHint="@color/azul"
+            android:background="@color/lila"
+            android:padding="8dp"
+            android:textSize="25dp">  </EditText>
+
+        <EditText
+            android:id="@+id/Descricion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="20dp"
+            android:hint="Descricion del Producto"
+            android:textColorHint="@color/azul"
+            android:background="@color/lila"
+            android:padding="8dp"
+            android:textSize="25dp">
+
+
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/IMG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="20dp"
+            android:hint="IMG del Producto"
+            android:textColorHint="@color/azul"
+            android:background="@color/lila"
+            android:padding="8dp"
+            android:textSize="25dp">
+
+
+
+        </EditText>
+
+        <Button
+
+            android:id="@+id/agregarProductos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="25dp"
+            android:backgroundTint="@color/amarillo"
+            android:text="Agregar Productos"
+            android:textColor="@color/azul"
+
+            android:textSize="20sp"></Button>
+
+
+        <Button
+            android:id="@+id/salir"
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="25dp"
+            android:backgroundTint="@color/amarillo"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/exit"
+            android:contentDescription="Salir de la aplicación" ></Button>
+
+    </LinearLayout>
+
+    <TextView
+        android:background="@color/verde"
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="30dp"
+        android:text="By JhonBB"
+        android:textAlignment="center"
+        android:textColor="@color/lila"
+        android:textSize="25sp"
+        app:layout_anchor="@+id/linearLayout"
+        app:layout_anchorGravity="bottom|center" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

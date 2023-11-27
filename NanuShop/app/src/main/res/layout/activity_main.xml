@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo3"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageView
+            android:background="@drawable/logo"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            />
+        <TextView
+
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="50sp"
+            android:layout_marginRight="20sp"
+            android:text="NannuSHOP"
+            android:textColor="@color/azul"
+
+            android:textSize="38sp" />
+
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+>
+        <TextView
+
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20sp"
+            android:text="REF"
+            android:textColor="@color/azul"
+
+            android:textSize="30sp" />
+
+        <TextView
+
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20sp"
+            android:text="codigo del cana de Youtube codigosdeprogramacion"
+            android:textColor="@color/azul"
+
+            android:textSize="20sp" />
+
+        <TextView
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20sp"
+            android:text="IMG sin libres "
+            android:textColor="@color/azul"
+
+            android:textSize="20sp" />
+        <TextView
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+
+            android:layout_marginRight="20sp"
+            android:text="https://unsplash.com/es"
+            android:textColor="@color/azul"
+
+            android:textSize="15sp" />
+
+
+        <TextView
+
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginTop="10dp"
+            android:text="Paleta de color"
+            android:textColor="@color/azul"
+
+            android:textSize="20sp" />
+        <TextView
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+
+            android:layout_marginRight="20sp"
+            android:text="https://unsplash.com/es"
+            android:textColor="@color/azul"
+
+            android:textSize="15sp" />
+        <TextView
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginTop="10dp"
+            android:text="Logo con IA"
+            android:textColor="@color/azul"
+
+            android:textSize="20sp" />
+        <TextView
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+
+            android:layout_marginRight="20sp"
+            android:text="https://picsart.com/es/ai-image-generator/"
+            android:textColor="@color/azul"
+
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/CrearBase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/amarillo"
+            android:text="Continuar"
+            android:textColor="@color/azul"
+            android:textSize="30sp"
+            ></Button>
+    </LinearLayout>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

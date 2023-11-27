@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NanuShop</string>
+    <string name="menu_nuevo">Carrito</string>
+    <string name="menu_2">Usuario</string>
+    <string name="menu_3">Compras</string>
+
+
+</resources>
